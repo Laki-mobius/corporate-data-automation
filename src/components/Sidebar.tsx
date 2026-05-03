@@ -183,7 +183,7 @@ export default function Sidebar({ collapsed, activeItem, onItemClick }: SidebarP
       <div className="p-3 border-t border-border mt-auto">
         <SidebarItem
           icon={<svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="5.5" r="2.5" stroke="currentColor" strokeWidth="1.4" /><path d="M3 13c0-2.8 2.2-5 5-5s5 2.2 5 5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
-          label="Laki Nair"
+          label="Laki"
           collapsed={collapsed}
           onClick={() => onItemClick('profile')}
         />
